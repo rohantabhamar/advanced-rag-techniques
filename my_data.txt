@@ -1,0 +1,153 @@
+IDENTITY AND CONTACT
+
+Full Name: Rohanta Dinkar Bhamare
+Title: AI Engineer
+Location: Frankfurt, Germany
+Phone: +49 15566030379
+Email: rohantabhamare22@gmail.com
+LinkedIn: www.linkedin.com/in/rohanta-bhamare-380611346
+GitHub: https://github.com/rohantabhamar
+
+
+PROFESSIONAL SUMMARY
+
+Rohanta Bhamare is an AI Engineer with 5+ years of experience building and deploying production-grade AI systems across deep learning, NLP, Large Language Models (LLMs), Generative AI, and computer vision. Previously an Assistant Professor in Computer Science, he brings both research-level depth and hands-on engineering expertise. He is skilled in MLOps, cloud infrastructure automation using AWS, Terraform, and Kubernetes, and CI/CD pipelines. He is currently open to ML Engineer, AI Engineer, and NLP Engineer roles.
+
+Unlike traditional machine learning engineers who focus only on model training, Rohanta engineers full-stack AI systems. These systems integrate document ingestion pipelines, embedding architectures, vector search optimization, LLM orchestration frameworks, API deployment, evaluation pipelines, and DevOps practices into cohesive production-ready solutions. This systems-oriented perspective differentiates his work from traditional machine learning workflows that prioritize experimentation over production readiness.
+
+
+PROFESSIONAL EXPERIENCE
+
+Role: AI / ML Consultant (Self-Employed)
+Duration: January 2025 to Present
+Location: Frankfurt, Germany
+
+Rohanta is currently working as a self-employed AI/ML Consultant while simultaneously pursuing his MSc in Artificial Intelligence at the Berlin School of Business and Innovation (BSBI). In this role, he develops AI/ML solutions for clients using Python, TensorFlow, and HuggingFace. He builds LLM-powered applications and Generative AI prototypes using LangChain and LangGraph. He consults on ML architecture decisions, model optimization, and cloud deployment on AWS. This role reflects his ability to operate independently end-to-end, from requirements through to deployment.
+
+Role: MLOps Engineer
+Company: Lyceum Infotech Private Limited
+Duration: September 2022 to December 2024
+Location: Pune, India
+
+This was Rohanta's most intensive industry engineering role. He engineered AWS resource cost analysis tooling that delivered a 40% reduction in cloud infrastructure costs. He automated file retrieval across 50+ AWS MLOps repositories, centralizing documentation and improving team accessibility. He orchestrated Jenkins CI/CD pipelines for 15+ applications, integrating Kibana and Nexus for automation. He provisioned infrastructure using Terraform and containerized applications with Docker, deploying them on Kubernetes. He designed and implemented Agentic AI workflows using LangChain for intelligent automation and multi-step reasoning. He built Retrieval-Augmented Generation (RAG) architectures integrating document ingestion, embeddings, and vector search. He applied PyTorch-based deep learning models for NLP tasks including text classification and sequence modeling. He developed data pipelines for processing unstructured documents covering PDF parsing, chunking, and metadata enrichment. He implemented evaluation frameworks to measure AI system performance, robustness, and reliability. He followed Agile practices using Atlassian Jira and Kanban, and managed GitHub repositories with GitHooks and SCM best practices. He converted AI prototypes into production-ready systems using FastAPI and Docker. He followed clean code, OOP, Git, and pytest testing practices and collaborated with cross-functional teams to deliver scalable AI platforms.
+
+Role: Assistant Professor
+Institution: Guru Gobind Singh Foundation
+Duration: May 2019 to August 2022
+Location: Nashik, India
+
+Before transitioning fully into industry, Rohanta taught undergraduate Computer Science to 100+ students. He designed curriculum and lab exercises focused on Python, Data Structures, and algorithms. He conducted workshops on data science tools including NumPy, Pandas, and Matplotlib. He supervised applied AI projects involving NLP and data-driven solutions. He guided NLP-based student research projects. This phase gave him strong communication and mentoring skills that most engineers do not develop.
+
+
+EDUCATION
+
+Degree: MSc in Artificial Intelligence
+Institution: Berlin School of Business and Innovation (BSBI), Berlin, Germany
+Duration: March 2026 to Present
+Status: Currently ongoing alongside consulting work. No grade assigned yet as the degree is in progress.
+Modules: Machine Learning, NLP, Chatbot Development, RASA, LLMs, Multi-Modal Chatbot, Time Series, RAG
+Projects: Machine Efficiency Predictor, Personal RAG Chatbot
+
+Degree: Master of Engineering (ME)
+Institution: Savitribai Phule Pune University, Pune, India
+Duration: 2017 to 2020
+Grade: First Class with Distinction, CGPA 8
+Thesis: Sentiment Analysis on Customer Reviews. Built NLP pipelines using TF-IDF, classical ML models, and LSTM networks. Deployed via Flask API.
+
+Degree: Bachelor of Engineering (BE)
+Institution: Savitribai Phule Pune University, Pune, India
+Duration: 2013 to 2017
+Grade: First Class with Distinction, 70%
+
+Secondary Education:
+SSC (Secondary School Certificate): 82%
+HSC (Higher Secondary Certificate): 57%
+
+
+COMPLETE TECHNICAL SKILLS
+
+Programming Languages: Python (primary), SQL, Bash
+Deep Learning Frameworks: PyTorch, TensorFlow, Keras
+LLM and GenAI: LangChain, LangGraph, HuggingFace Transformers, OpenAI API, Groq API, Llama3, RAG (Retrieval-Augmented Generation), Prompt Engineering, Agents
+Vector Databases: FAISS, Chroma
+Embeddings: sentence-transformers/all-MiniLM-L6-v2, HuggingFace Sentence Transformers, OpenAI Embeddings
+NLP: spaCy, NLTK, TF-IDF, Word2Vec, BERT, text classification, sequence modeling, named entity recognition
+MLOps and DevOps: Docker, Kubernetes, Terraform, Jenkins CI/CD, Kibana, Nexus, GitHub Actions, GitHooks
+Cloud: AWS (S3, EC2, SageMaker, Lambda), cloud cost optimization
+APIs and Backend: FastAPI, Flask, Streamlit, REST APIs, async programming, Pydantic
+Data Engineering: Pandas, NumPy, Matplotlib, Scikit-learn, PDF parsing, chunking, metadata enrichment
+Testing and Quality: pytest, pytest-asyncio, MyPy, Ruff, clean code, OOP
+Project Management: Jira, Kanban, Agile
+
+
+PERSONAL RAG CHATBOT — TECHNICAL ARCHITECTURE
+
+This chatbot (rohanta_rag) is built by Rohanta Bhamare as a personal AI assistant.
+
+LLM: Groq API with Llama3 model (llama-3.1-8b-instant)
+Embedding Model: sentence-transformers/all-MiniLM-L6-v2 via HuggingFace Sentence Transformers
+Vector Store: FAISS (Facebook AI Similarity Search) with MMR (Maximal Marginal Relevance) retrieval
+Retrieval Strategy: MMR with top-k=8, lambda=0.6 for diversity-relevance balance
+Memory: Full conversation history with safe truncation at 6000 characters
+Query Expansion: Custom keyword expansion map for vague queries (e.g. "current role", "last job", "skills")
+Condense Step: Follow-up questions are rewritten as standalone questions before retrieval
+Framework: LangChain with RunnableLambda, StrOutputParser, PromptTemplate
+Frontend: Streamlit with dark theme, session stats sidebar
+Deployment: HuggingFace Spaces (live), also runs locally on localhost:8501
+Knowledge Base: Plain text document (my_data.txt) chunked at 200 tokens with 50 token overlap
+
+
+DEPLOYED PROJECTS
+
+Project: Personal RAG Chatbot
+URL: Available on HuggingFace Spaces
+Stack: Python, LangChain, FAISS, Groq API, Llama3, all-MiniLM-L6-v2, Streamlit, HuggingFace
+Description: A personal AI assistant chatbot built using RAG architecture. Answers questions about Rohanta's professional background by retrieving relevant chunks from a knowledge base and generating grounded answers using Llama3 via Groq.
+
+Project: Machine Efficiency Predictor
+URL: Deployed on Render
+Stack: Python, Scikit-learn, FastAPI, Docker, Render
+Description: A machine learning model that predicts manufacturing machine efficiency. Includes a REST API built with FastAPI and deployed as a containerized service on Render.
+
+Project: Stroke Prediction System
+URL: https://stroke-prediction-o7xz.onrender.com/
+Stack: Python, Flask, Scikit-learn, SMOTE, Render
+Description: A classification model that predicts stroke risk from patient health data. Uses SMOTE for class imbalance handling. Deployed live on Render.
+
+
+RAG SYSTEM DESIGN EXPERTISE
+
+Rohanta has deep expertise in Retrieval-Augmented Generation (RAG) system design. RAG systems combine document retrieval with LLM generation to produce grounded, factual answers. Key components he has built include: document ingestion pipelines, text chunking strategies, embedding generation, vector store indexing with FAISS, semantic similarity search, MMR retrieval for diversity, prompt engineering for grounded generation, conversation memory management, and evaluation frameworks for measuring RAG quality.
+
+He understands the tradeoffs between chunk size (smaller chunks improve precision but lose context), retrieval strategies (similarity vs MMR), embedding model quality, and LLM temperature settings. He has implemented query expansion techniques to handle vague or short user queries by mapping them to richer search terms before retrieval.
+
+
+LANGCHAIN AND LANGGRAPH EXPERTISE
+
+Rohanta uses LangChain to orchestrate LLM workflows. He uses components including PromptTemplate, RunnableSequence, RunnableParallel, RunnableLambda, and output parsers to build modular and composable pipeline architectures. This modularity enables clean separation between retrieval logic, prompt formatting, model invocation, and output parsing stages. Such architectural separation improves maintainability and debugging efficiency because individual components can be modified or replaced without disrupting the entire system.
+
+For advanced agentic workflows, he uses LangGraph. LangGraph enables graph-based AI workflows where nodes represent reasoning steps and edges represent execution transitions. This allows conditional branching, iterative reasoning loops, tool usage, stateful memory, and dynamic decision making. In agentic systems, the LLM can decide when to retrieve additional information, when to call external tools, when to validate outputs, and when to terminate reasoning. Rohanta actively experiments with state management, tool routing, execution tracing, and dynamic decision-making in these systems. He understands that future AI systems will be agentic rather than static.
+
+
+BACKEND ENGINEERING AND MLOPS
+
+Rohanta develops AI applications using FastAPI with asynchronous programming patterns. Since LLM inference involves high latency, async and await patterns using Python's asyncio framework allow multiple requests to be processed concurrently without blocking the server. This significantly improves system scalability in environments where many users interact with AI services simultaneously. Pydantic models are used for strict schema validation within API endpoints, ensuring that incoming requests and outgoing responses adhere to well-defined data structures. Testing is implemented using pytest and pytest-asyncio, allowing integration-level verification of pipelines.
+
+He containerizes AI systems using Docker for environment reproducibility and isolation. By packaging applications with all necessary dependencies, Docker eliminates configuration drift and simplifies deployment pipelines. He has exposure to AWS S3 for storage and understands CI/CD concepts for production deployment. He applies static type checking with MyPy, code linting with Ruff, and dependency management using Poetry. These practices improve code quality and maintainability which are critical for long-term AI platform development.
+
+Security and reliability are also central to his approach. He recognizes that LLM systems must prevent prompt injection, enforce access control, and manage sensitive data carefully. He structures prompts to minimize unintended model behavior and separates system instructions from user input to reduce injection risk. Logging and monitoring practices are incorporated to observe API latency, error rates, and response consistency.
+
+
+NLP AND CLASSICAL ML FOUNDATIONS
+
+Beyond LLM systems, Rohanta has a strong foundation in classical machine learning and deep learning. He has implemented text classification systems using logistic regression and support vector machines. He understands model evaluation metrics including precision, recall, F1-score, and ROC-AUC, and applies cross-validation and hyperparameter tuning to optimize models. His NLP experience includes intent classification, entity extraction, tokenization, and sequence modeling. He has also worked with convolutional neural networks (CNNs), understanding convolutional filters, feature maps, pooling operations, activation functions, and overfitting mitigation strategies. This foundational knowledge strengthens his ability to design robust AI systems that combine statistical rigor with practical engineering considerations.
+
+
+ENGINEERING PHILOSOPHY
+
+Rohanta believes AI systems must be reliable, observable, testable, modular, scalable, secure, and cost-aware. He believes AI systems should be designed as maintainable software infrastructure rather than experimental research artifacts. He prioritizes architecture clarity, evaluation-driven development, and structured output validation. His goal is not just to build AI applications but to build AI infrastructure. Token usage optimization, caching strategies, and batch inference techniques are areas he continues to refine.
+
+
+CAREER OBJECTIVE
+
+Rohanta is looking for full-time roles as an ML Engineer, AI Engineer, or NLP Engineer. He aims to work on LLM system architecture, enterprise RAG systems, AI platform engineering, agentic AI workflows, evaluation frameworks, and scalable AI infrastructure. His background bridging academia and production engineering makes him a strong candidate for both applied research and senior engineering tracks. He seeks opportunities where he can design high-impact AI systems that operate at scale and deliver measurable business value.
